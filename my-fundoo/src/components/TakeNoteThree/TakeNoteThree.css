@@ -1,0 +1,74 @@
+.main-box-note3 {
+    width: 18vw;
+    min-height: 50px;
+    max-height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    border-radius: 10px;
+
+}
+.title-box-note3 {
+    width: 90%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+
+}
+
+
+.description-box {
+    width: 90%;
+    min-height: 50px;
+    max-height: 200px;
+   font-size: large;
+   text-align: left;
+    
+}
+.image-block-note3 {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+
+.editnote-text {
+    border: none;
+    outline: none;
+}
+.icons-editnote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    position: relative;
+    top: 10px;
+}
+.subdiv-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 70%;
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    .main-box-note3 {
+        width: 90vw;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 860px) {
+
+    .main-box-note3 {
+        width: 30vw;
+    }
+   
+}

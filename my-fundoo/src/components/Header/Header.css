@@ -1,0 +1,115 @@
+.mainBox {
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.subBox1 {
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.subBox2 {
+    width: 50%;
+    height: 80%;
+   border: 1px solid grey;
+   border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.subBox3 {
+    width: 10%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+   
+   justify-content:space-around;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 20px;
+   
+}
+.subBox4 {
+    width: 5%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    right: 30px;
+   
+    
+}
+.img1 {
+    height: 40px;
+    width: 30px;
+}
+#textarea {
+    height: 85%;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    .subBox2 {
+        display: none;
+    }
+    .subBox1 {
+       
+        width: 40%;
+        margin-left: 20px;
+        gap: 5px;
+    }
+    .subBox3 {
+        width: 25%;
+        padding-right: 20px;
+        
+        gap: 5px;
+    } 
+    .subBox4 {
+        width: 10%;
+        
+        
+       
+    }
+
+}
+@media screen and (min-width: 601px) and (max-width: 860px) {
+    .subBox2 {
+        display: none;
+    }
+    .subBox1 {
+        width: 35%;
+        
+        
+    }
+    .subBox3 {
+        width: 30%;
+        
+        
+    }
+    .subBox4 {
+        width: 15%;
+        
+        
+    }
+}
+@media screen and (min-width: 861px) and (max-width: 1024) {
+    
+}

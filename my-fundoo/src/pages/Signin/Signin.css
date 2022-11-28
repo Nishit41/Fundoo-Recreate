@@ -1,0 +1,106 @@
+.main-box {
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.sub-box {
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+#image1 {
+    height: 30px;
+    width: 100px;
+
+}
+
+.use-google {
+
+
+
+    margin-left: 10px;
+}
+
+.textarea {
+
+    width: 90%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.textfield {
+    width: 85%;
+
+
+}
+
+.sign-in {
+    font-size: x-large;
+}
+
+.forgot-email {
+
+    color: blue;
+    font-weight: bold;
+    width: 85%;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+
+
+}
+
+.create-account {
+
+    color: blue;
+    font-weight: bold;
+}
+
+.sub-box3 {
+    width: 100%;
+
+
+}
+
+#learn-more {
+    color: blue;
+    font-weight: bold;
+
+}
+
+.button-box {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .main-box {
+        border: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 860px) {
+    
+}
+
+@media screen and (min-width: 861px) and (max-width: 1024px) {}
